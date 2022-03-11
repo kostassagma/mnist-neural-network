@@ -2,6 +2,15 @@
 
 This is a effort to solve the "hello world" of neural networks. This is also my first project that involves neural networks and machine learning in general.
 
+## How to run
+```
+$ git clone https://github.com/kostassagma/mnist-neural-network.git
+$ cd mnist-neural-networks
+$ python -m venv venv
+$ venv/Scripts/activate
+$ pip install -r requirements.txt
+```
+
 ## Network Structure
 The neural network consists of 4 layers. At first, there is an input layer, which converts 28 by 28 images into 784 consecutive inputs. Then, there are two hidden layers with 256 neurons each that use the relu activation function and, at last, the output layer consists of ten neurons, each representing a digit, and thus expressing how much our neural network thinks the respective digit is displayed in each image. The structure can be seen below:
 
