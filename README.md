@@ -11,3 +11,7 @@ The neural network consists of 4 layers. At first, there is an input layer, whic
 Both hidden layers use the relu activation function (rectified linear unit). Its charasteristic property is that is returns 0 for values smaller than zero and is linear for values greater than zero, thus resembling the behaviour of biological neurons and either being inactive or having a value proportionate to its stimulation.
 
 ![Relu](/for-readme/relu.png)
+
+The output layer makes use of a softmax function. This way, each layer can produce binary values. These binary values express how likely each image is to correspond to each digit
+
+![Softmax](/for-readme/softmax.png)
